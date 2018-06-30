@@ -1,0 +1,25 @@
+main: com.quzzar.ge.Main
+name: GrandExchange
+version: 1.5
+author: Quzzar
+description: Adds the Grand Exchange!
+commands:
+  ge:
+    description: Opens the Grand Exchange!
+    usage: /ge [player]
+  grandexchange:
+    description: Opens the Grand Exchange!
+    usage: /grandexchange [player]
+permissions:
+  grandexchange.commands.ge:
+     description: Use GE command
+     default: op
+  grandexchange.sellsize.silver:
+     description: Have a silver sized sell inv size
+     default: op
+  grandexchange.sellsize.gold:
+     description: Have a gold sized sell inv size
+     default: op
+  grandexchange.cancelsale:
+     description: Able to cancel sales
+     default: op
